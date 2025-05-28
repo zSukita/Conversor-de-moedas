@@ -2,6 +2,14 @@
 
 API REST para conversão de moedas com integração a serviços externos de cotação em tempo real.
 
+<!-- Badges do projeto -->
+![Java](https://img.shields.io/badge/Java-17-blue?logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?logo=springboot)
+![Maven](https://img.shields.io/badge/Maven-3.6%2B-C71A36?logo=apachemaven)
+![H2](https://img.shields.io/badge/H2-Database-lightgrey?logo=h2)
+![Swagger](https://img.shields.io/badge/Swagger-OpenAPI%203.0-orange?logo=swagger)
+![License MIT](https://img.shields.io/badge/license-MIT-green)
+
 ## Tecnologias Utilizadas
 
 - Java 17
