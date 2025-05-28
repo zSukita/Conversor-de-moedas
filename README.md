@@ -99,11 +99,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-<!-- Exemplo de Badges (substitua pelos links reais dos seus serviços de CI/CD, etc.) -->
-<!--
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![License](https://img.shields.io/github/license/SEU_USUARIO/SEU_REPOSITORIO)
-![GitHub stars](https://img.shields.io/github/stars/SEU_USUARIO/SEU_REPOSITORIO?style=social)
--->
+![Build](https://img.shields.io/github/actions/workflow/status/zSukita/Conversor-de-moedas/blank.yml?label=build)
+![License](https://img.shields.io/github/license/zSukita/Conversor-de-moedas)
+![GitHub stars](https://img.shields.io/github/stars/zSukita/Conversor-de-moedas?style=social)
+
 
 **Nota:** Para ambientes de produção, recomenda-se a configuração de um banco de dados persistente (ex: PostgreSQL, MySQL). 
