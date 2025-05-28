@@ -67,7 +67,7 @@ O projeto utiliza H2 como banco de dados em memória. O console H2 está dispon�
 http://localhost:8080/api/h2-console
 ```
 
-## Monitoramento e Métricas
+## 📊 Monitoramento e Métricas
 
 A API expõe métricas através do Spring Boot Actuator.
 
@@ -76,14 +76,16 @@ A API expõe métricas através do Spring Boot Actuator.
 
 Para uma visualização gráfica e dashboards, recomenda-se integrar com ferramentas como Prometheus (para coleta) e Grafana (para visualização).
 
-## Testes
+## 🧪 Testes
 
 Para executar os testes:
 ```bash
 mvn test
 ```
 
-## Contribuição
+## 🙌 Contribuição
+
+Seja bem-vindo(a) a contribuir com este projeto! Siga os passos abaixo:
 
 1. Faça o fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
@@ -91,6 +93,17 @@ mvn test
 4. Push para a branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
 
-## Licença
+## ⚖️ Licença
 
-Este projeto está sob a licença MIT. 
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+<!-- Exemplo de Badges (substitua pelos links reais dos seus serviços de CI/CD, etc.) -->
+<!--
+![Build Status](https://img.shields.io/badge/build-passing-green)
+![License](https://img.shields.io/github/license/SEU_USUARIO/SEU_REPOSITORIO)
+![GitHub stars](https://img.shields.io/github/stars/SEU_USUARIO/SEU_REPOSITORIO?style=social)
+-->
+
+**Nota:** Para ambientes de produção, recomenda-se a configuração de um banco de dados persistente (ex: PostgreSQL, MySQL). 
