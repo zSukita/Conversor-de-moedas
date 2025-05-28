@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: currency-converter
+  datasource:
+    url: jdbc:h2:mem:currencydb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  cache:
+    type: simple
+    cache-names: exchangeRates
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  metrics:
+    cache:
+      caffeine:
+        enable: true
+    jpa:
+      repositories:
+        enabled: true
+    hibernate:
+      session-factory:
+        enabled: true
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+
+# Configurações da API externa
+exchange-rate:
+  api:
+    base-url: https://api.exchangerate-api.com/v4/latest
+    provider: exchangerate-api
+    timeout: 5000
+    retry:
+      max-attempts: 3
+      initial-interval: 1000
+      multiplier: 2.0
+      max-interval: 10000
+
+# Configurações de rate limiting
+rate-limit:
+  enabled: true
+  requests-per-minute: 60 

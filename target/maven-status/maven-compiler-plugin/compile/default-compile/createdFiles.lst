@@ -1,0 +1,15 @@
+com\conversor\service\ExchangeRateService.class
+com\conversor\model\Currency.class
+com\conversor\exception\CurrencyNotFoundException.class
+com\conversor\exception\RateLimitExceededException.class
+com\conversor\model\ConversionHistory.class
+com\conversor\dto\ConversionResponse.class
+com\conversor\exception\ExternalApiException.class
+com\conversor\service\ExchangeRateService$1.class
+com\conversor\exception\CurrencyExceptionHandler.class
+com\conversor\repository\ConversionHistoryRepository.class
+com\conversor\config\CacheConfig.class
+com\conversor\CurrencyConverterApplication.class
+com\conversor\config\RestClientConfig.class
+com\conversor\controller\CurrencyController.class
+com\conversor\dto\ConversionRequest.class

@@ -1,0 +1,14 @@
+E:\Conversor de moedas\src\main\java\com\conversor\config\CacheConfig.java
+E:\Conversor de moedas\src\main\java\com\conversor\config\RestClientConfig.java
+E:\Conversor de moedas\src\main\java\com\conversor\controller\CurrencyController.java
+E:\Conversor de moedas\src\main\java\com\conversor\CurrencyConverterApplication.java
+E:\Conversor de moedas\src\main\java\com\conversor\dto\ConversionRequest.java
+E:\Conversor de moedas\src\main\java\com\conversor\dto\ConversionResponse.java
+E:\Conversor de moedas\src\main\java\com\conversor\exception\CurrencyExceptionHandler.java
+E:\Conversor de moedas\src\main\java\com\conversor\exception\CurrencyNotFoundException.java
+E:\Conversor de moedas\src\main\java\com\conversor\exception\ExternalApiException.java
+E:\Conversor de moedas\src\main\java\com\conversor\exception\RateLimitExceededException.java
+E:\Conversor de moedas\src\main\java\com\conversor\model\ConversionHistory.java
+E:\Conversor de moedas\src\main\java\com\conversor\model\Currency.java
+E:\Conversor de moedas\src\main\java\com\conversor\repository\ConversionHistoryRepository.java
+E:\Conversor de moedas\src\main\java\com\conversor\service\ExchangeRateService.java

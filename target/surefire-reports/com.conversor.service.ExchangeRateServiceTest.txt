@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.conversor.service.ExchangeRateServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.425 s <<< FAILURE! -- in com.conversor.service.ExchangeRateServiceTest
+com.conversor.service.ExchangeRateServiceTest.getExchangeRates_currencyNotFound -- Time elapsed: 0.012 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <com.conversor.exception.CurrencyNotFoundException> but was: <com.conversor.exception.ExternalApiException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at com.conversor.service.ExchangeRateServiceTest.getExchangeRates_currencyNotFound(ExchangeRateServiceTest.java:93)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: com.conversor.exception.ExternalApiException: Erro ao chamar a API externa: 404 NOT_FOUND
+	at com.conversor.service.ExchangeRateService.getExchangeRates(ExchangeRateService.java:66)
+	at com.conversor.service.ExchangeRateServiceTest.lambda$0(ExchangeRateServiceTest.java:93)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+Caused by: org.springframework.web.client.HttpClientErrorException: 404 NOT_FOUND
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:709)
+	at com.conversor.service.ExchangeRateService.getExchangeRates(ExchangeRateService.java:42)
+	... 8 more
+
