@@ -99,9 +99,14 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-![Build](https://img.shields.io/github/actions/workflow/status/zSukita/Conversor-de-moedas/blank.yml?label=build)
-![License](https://img.shields.io/github/license/zSukita/Conversor-de-moedas)
-![GitHub stars](https://img.shields.io/github/stars/zSukita/Conversor-de-moedas?style=social)
+<!-- Badges do projeto -->
+![Java](https://img.shields.io/badge/Java-17-blue?logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?logo=springboot)
+![Maven](https://img.shields.io/badge/Maven-3.6%2B-C71A36?logo=apachemaven)
+![H2](https://img.shields.io/badge/H2-Database-lightgrey?logo=h2)
+![Swagger](https://img.shields.io/badge/Swagger-OpenAPI%203.0-orange?logo=swagger)
+![License MIT](https://img.shields.io/badge/license-MIT-green)
+
 
 
 **Nota:** Para ambientes de produção, recomenda-se a configuração de um banco de dados persistente (ex: PostgreSQL, MySQL). 
